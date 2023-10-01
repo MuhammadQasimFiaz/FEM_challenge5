@@ -6,7 +6,6 @@ li{list-style: none;}
 
 
 .main_bg {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +13,7 @@ li{list-style: none;}
     background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     font-family: 'Kumbh Sans', sans-serif;
     .main {
+        position: relative;
         width: 1000px;
         display: flex;
         border-radius: 20px;
@@ -70,7 +70,7 @@ li{list-style: none;}
         }
         .box {
             position: absolute;
-            left: 6%;
+            left: -5%;
             top: 40%;
         }
     }
